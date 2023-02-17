@@ -1,0 +1,12 @@
+.primary{
+  @apply font-bold w-[8rem] h-[3rem] text-center text-xs border-[2px] border-gray-50 rounded-[4px] bg-transparent;
+}
+
+.secundary{
+  @apply bg-[#00B0FF] border-[#00B0FF];
+  
+}
+
+.slider{
+  @apply h-[2rem] w-[2rem] text-gray-500 border-[2px] border-gray-500 rounded-full bg-transparent;
+}
