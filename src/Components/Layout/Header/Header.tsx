@@ -1,9 +1,12 @@
 import React from 'react'
 import { Button } from '../../Ui/button/Button';
+import imgs from '../../../exports/imgHeder';
 
 import './Header.scss';
 
 export const Header = () => {
+
+  const [imgVideo] = imgs;
 
   return (
     <header>
@@ -17,8 +20,7 @@ export const Header = () => {
           </div>
         </article>
         <div className="video">
-          <img src="" alt="video" />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium voluptatem harum inventore temporibus corrupti consectetur, nisi magni in consequuntur. Harum officiis at quod ipsa consequuntur corporis tempore autem dolorem.
+          <img src={imgVideo} alt="video" />
         </div>
       </div>
     </header>
