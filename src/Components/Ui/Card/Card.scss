@@ -1,0 +1,15 @@
+.imgs-cont{
+  @apply w-[164px] h-auto mr-3;
+  .img{
+    @apply w-[164px] h-[240px] border border-gray-800 mb-2 pointer-events-none cursor-grab;
+    img{
+      @apply object-cover;
+    }
+  }
+  .date{
+    @apply text-[12px];
+  }
+  .descrip{
+    @apply font-bold;
+  }
+}
