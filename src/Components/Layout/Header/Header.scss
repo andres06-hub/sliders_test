@@ -1,0 +1,19 @@
+header{
+  @apply h-[27rem] text-xs text-white px-8 bg-[#242c3c] ;
+  .content{
+    @apply grid grid-cols-2 pt-14 place-items-center h-[100%] w-[100hv];
+    article {
+      @apply flex flex-col justify-between w-[25rem] h-[12rem] ;
+      h2{
+        @apply text-[40px] font-bold;
+      }
+      .container-btn{
+        @apply grid grid-cols-3 gap-10;
+      }
+    }
+  }
+    
+  .video{
+    @apply border border-gray-50 h-auto w-[25rem];
+  }
+}
