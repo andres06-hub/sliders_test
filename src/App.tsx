@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Header } from './Components/Layout/Header/Header';
-import { Slider } from './Components/Layout/Slider/Slider';
+import { Landing } from './Modules/Landing/Landing';
 
 function App() {
   return (
   <>
-    <Header/>
-    <Slider/>
+    <Landing/>
   </>
 );
 }
