@@ -2,8 +2,6 @@ import React from 'react'
 import { Button } from '../../Ui/button/Button';
 import imgs from '../../../exports/imgHeder';
 
-import './Header.scss';
-
 export const Header = () => {
 
   const [imgVideo] = imgs;
