@@ -8,7 +8,11 @@ import { Card } from '../../Ui/Card/Card';
 
 export const Slider = (data: any) => {
 
-  const [img1, img2, img3, img4, img5, img6, img7, img8, img9] = images;
+  const [
+    img1, img2, img3, img4, img5, 
+    img6, img7, img8, img9, img10, 
+    img11, img12, img13, img14, img15,
+] = images;
   const { style, mode } = data.data;
   
   const [characters, setCharacters] = useState(Array)
@@ -17,24 +21,34 @@ export const Slider = (data: any) => {
       {
         date: 'Action, Drama, 2017',
         title: 'Laby Bird',
-        img: img3
+        img: img12
       },
       {
         date: 'Action, Mystery, 2016',
         title: 'Spiderman 3',
-        img: img4
+        img: img15
       },
       {
         date: 'Action, Mystery, 2016',
         title: 'Spiderman 3',
-        img: img5
+        img: img10
       },
       {
         date: 'Action, Mystery, 2016',
         title: 'Spiderman 3',
-        img: img6
+        img: img11
       },
       {
+        date: 'Action, Mystery, 2016',
+        title: 'Spiderman 3',
+        img: img9
+      },
+            {
+        date: 'Action, Mystery, 2016',
+        title: 'Spiderman 3',
+        img: img13
+      },
+            {
         date: 'Action, Mystery, 2016',
         title: 'Spiderman 3',
         img: img9
@@ -45,17 +59,37 @@ export const Slider = (data: any) => {
       {
         date: 'Action, Drama, 2017',
         title: 'Laby Bird',
+        img: img13
+      },
+      {
+        date: 'Action, Mystery, 2016',
+        title: 'Spiderman 3',
+        img: img10
+      },
+      {
+        date: 'Action, Mystery, 2016',
+        title: 'Spiderman 3',
+        img: img11
+      },
+            {
+        date: 'Action, Mystery, 2016',
+        title: 'Spiderman 3',
+        img: img12
+      },
+            {
+        date: 'Action, Mystery, 2016',
+        title: 'Spiderman 3',
         img: img3
       },
-      {
+            {
         date: 'Action, Mystery, 2016',
         title: 'Spiderman 3',
-        img: img4
+        img: img14
       },
-      {
+            {
         date: 'Action, Mystery, 2016',
         title: 'Spiderman 3',
-        img: img9
+        img: img15
       },
   ];
 
