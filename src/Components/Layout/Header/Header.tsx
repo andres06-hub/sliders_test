@@ -13,7 +13,7 @@ export const Header = () => {
           <h2 className='text-[40px] font-bold'>Big Comeback</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, amet error quasi totam voluptatum, ullam distinctio nisi sequi placeat nobis, nam nulla fugit vel voluptas expedita dolor. Est, praesentium ea.</p>
           <div className='grid grid-cols-3 gap-10'>
-            <Button data={{style: 'primary secundary', content: 'WATCH NOW'}}/>
+            <Button data={{style: 'secundary', content: 'WATCH NOW'}}/>
             <Button data={{style: 'primary', content: '+ PLAYLIST'}} />
           </div>
         </article>
